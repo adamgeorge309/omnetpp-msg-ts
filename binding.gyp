@@ -1,7 +1,7 @@
 {
   "targets": [
     {
-      "target_name": "tree_sitter_omnetpp_msg_binding",
+      "target_name": "tree_sitter_msg_binding",
       "dependencies": [
         "<!(node -p \"require('node-addon-api').targets\"):node_addon_api_except",
       ],

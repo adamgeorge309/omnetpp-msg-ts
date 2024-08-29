@@ -2,16 +2,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "TreeSitterOmnetppMsg",
+    name: "TreeSitterMsg",
     products: [
-        .library(name: "TreeSitterOmnetppMsg", targets: ["TreeSitterOmnetppMsg"]),
+        .library(name: "TreeSitterMsg", targets: ["TreeSitterMsg"]),
     ],
     dependencies: [
         .package(url: "https://github.com/ChimeHQ/SwiftTreeSitter", from: "0.8.0"),
     ],
     targets: [
         .target(
-            name: "TreeSitterOmnetppMsg",
+            name: "TreeSitterMsg",
             dependencies: [],
             path: ".",
             exclude: [
@@ -48,12 +48,12 @@ let package = Package(
             cSettings: [.headerSearchPath("src")]
         ),
         .testTarget(
-            name: "TreeSitterOmnetppMsgTests",
+            name: "TreeSitterMsgTests",
             dependencies: [
                 "SwiftTreeSitter",
-                "TreeSitterOmnetppMsg",
+                "TreeSitterMsg",
             ],
-            path: "bindings/swift/TreeSitterOmnetppMsgTests"
+            path: "bindings/swift/TreeSitterMsgTests"
         )
     ],
     cLanguageStandard: .c11

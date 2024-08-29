@@ -4,7 +4,7 @@ endif
 
 VERSION := 0.0.1
 
-LANGUAGE_NAME := tree-sitter-omnetpp_msg
+LANGUAGE_NAME := tree-sitter-msg
 
 # repository
 SRC_DIR := src

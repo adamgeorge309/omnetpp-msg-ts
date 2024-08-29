@@ -1,7 +1,7 @@
 {
   "name": "omnetpp-msg-ts",
-  "version": "1.0.0",
-  "description": "Tree-sitter grammar for omnetpp msg files",
+  "version": "0.0.12",
+  "description": "something",
   "main": "index.js",
   "types": "bindings/node",
   "scripts": {
@@ -12,11 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/adamgeorge309/omnetpp-msg-ts.git"
+    "url": "git+https://github.com/adamgeorge309/omnetpp-msg-ts.git"
   },
   "keywords": [
-    "omnetpp",
-    "msg"
+    "xxxx"
   ],
   "files": [
     "grammar.js",
@@ -27,7 +26,7 @@
     "src/**",
     "*.wasm"
   ],
-  "author": "Gyorgy Szaszko",
+  "author": "adamgeorge309",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/adamgeorge309/omnetpp-msg-ts/issues"
@@ -51,8 +50,8 @@
   },
   "tree-sitter": [
     {
-      "scope": "source.omnetpp_msg",
-      "injection-regex": "^omnetpp_msg$"
+      "scope": "source.msg",
+      "injection-regex": "^msg$"
     }
   ]
 }

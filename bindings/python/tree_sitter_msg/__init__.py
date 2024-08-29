@@ -1,4 +1,4 @@
-"""OmnetppMsg grammar for tree-sitter"""
+"""Msg grammar for tree-sitter"""
 
 from importlib.resources import files as _files
 
