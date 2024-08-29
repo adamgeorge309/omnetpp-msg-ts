@@ -1,7 +1,6 @@
 {
   "name": "omnetpp-msg-ts",
-  "version": "0.0.1",
-  "description": "asd",
+  "version": "1.0.0",
   "main": "grammar.js",
   "types": "bindings/node",
   "scripts": {
@@ -14,24 +13,13 @@
     "type": "git",
     "url": "git+https://github.com/adamgeorge309/omnetpp-msg-ts.git"
   },
-  "keywords": [
-    "asd"
-  ],
-  "files": [
-    "grammar.js",
-    "binding.gyp",
-    "prebuilds/**",
-    "bindings/node/*",
-    "queries/*",
-    "src/**",
-    "*.wasm"
-  ],
-  "author": "asd",
+  "author": "",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/adamgeorge309/omnetpp-msg-ts/issues"
   },
   "homepage": "https://github.com/adamgeorge309/omnetpp-msg-ts#readme",
+  "description": "",
   "dependencies": {
     "node-addon-api": "^8.0.0",
     "node-gyp-build": "^4.8.1"
@@ -48,6 +36,15 @@
     "tree-sitter-cli": "^0.23.0",
     "prebuildify": "^6.0.1"
   },
+  "files": [
+    "grammar.js",
+    "binding.gyp",
+    "prebuilds/**",
+    "bindings/node/*",
+    "queries/*",
+    "src/**",
+    "*.wasm"
+  ],
   "tree-sitter": [
     {
       "scope": "source.msg",
