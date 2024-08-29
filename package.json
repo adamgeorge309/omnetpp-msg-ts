@@ -10,10 +10,7 @@
     "start": "tree-sitter playground",
     "test": "node --test bindings/node/*_test.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/adamgeorge309/omnetpp-msg-ts.git"
-  },
+  "repository": "https://github.com/adamgeorge309/omnetpp-msg-ts",
   "keywords": [
     "omnetpp",
     "msg"
