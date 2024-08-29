@@ -1,57 +1,28 @@
 {
   "name": "omnetpp-msg-ts",
-  "version": "0.0.12",
-  "description": "something",
-  "main": "index.js",
-  "types": "bindings/node",
+  "version": "0.0.1",
+  "description": "asd",
+  "main": "grammar.js",
   "scripts": {
-    "install": "node-gyp-build",
-    "prestart": "tree-sitter build --wasm",
-    "start": "tree-sitter playground",
-    "test": "node --test bindings/node/*_test.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adamgeorge309/omnetpp-msg-ts.git"
   },
   "keywords": [
-    "xxxx"
+    "asd"
   ],
-  "files": [
-    "grammar.js",
-    "binding.gyp",
-    "prebuilds/**",
-    "bindings/node/*",
-    "queries/*",
-    "src/**",
-    "*.wasm"
-  ],
-  "author": "adamgeorge309",
+  "author": "asd",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/adamgeorge309/omnetpp-msg-ts/issues"
   },
   "homepage": "https://github.com/adamgeorge309/omnetpp-msg-ts#readme",
   "dependencies": {
-    "node-addon-api": "^8.0.0",
-    "node-gyp-build": "^4.8.1"
-  },
-  "peerDependencies": {
-    "tree-sitter": "^0.21.1"
-  },
-  "peerDependenciesMeta": {
-    "tree_sitter": {
-      "optional": true
-    }
+    "nan": "^2.20.0"
   },
   "devDependencies": {
-    "tree-sitter-cli": "^0.23.0",
-    "prebuildify": "^6.0.1"
-  },
-  "tree-sitter": [
-    {
-      "scope": "source.msg",
-      "injection-regex": "^msg$"
-    }
-  ]
+    "tree-sitter-cli": "^0.23.0"
+  }
 }
